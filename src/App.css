@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.dice {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #000;
+  background-color: white;
+  margin: 10px auto;
+  perspective: 1000px;
+  padding: 12px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.animate {
+  animation: rollDice 0.5s ease-in-out;
+}
+
+@keyframes rollDice {
+  0% { transform: rotateX(0deg) rotateY(0deg); }
+  25% { transform: rotateX(360deg) rotateY(0deg); }
+  50% { transform: rotateX(360deg) rotateY(360deg); }
+  75% { transform: rotateX(0deg) rotateY(360deg); }
+  100% { transform: rotateX(0deg) rotateY(0deg); }
+}
+.biteSnakeSVG {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10; 
+  z-index: 100;
+}
+
