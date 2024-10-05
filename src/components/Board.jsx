@@ -1,5 +1,5 @@
 import React from 'react';
-import BiteSnakeSVG from '../assets/SnakeSVG';
+import BiteSnakeSVG from '../assets/BiteSnakeSVG';
 import LadderSVG from '../assets/LadderSVG';
 
 const Board = ({ boardData, snakes, ladders, currentPositions, playerColors }) => {

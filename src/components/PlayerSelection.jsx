@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import BiteSnakeSVG from '../assets/SnakeSVG';
+import BiteSnakeSVG from '../assets/BiteSnakeSVG';
 
 const availableColors = [
   { name: 'Red', class: 'bg-red-500' },

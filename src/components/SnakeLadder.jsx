@@ -23,7 +23,7 @@ const generateBoard = (size) => {
   return board;
 };
 
-const MainGame = () => {
+const SnakeLadder = () => {
   const boardSize = 10;
   const [gameStarted, setGameStarted] = useState(false);
   const [players, setPlayers] = useState([]);
@@ -169,4 +169,4 @@ const MainGame = () => {
   );
 };
 
-export default MainGame;
+export default SnakeLadder;
