@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import BiteSnakeSVG from '../assets/SnakeSVG';
 
 const availableColors = [
   { name: 'Red', class: 'bg-red-500' },
@@ -44,7 +45,12 @@ const PlayerSelection = ({ onPlayersSelected }) => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
       <h2 className="text-white text-4xl font-bold mb-6">Assignment for LearningMate</h2>
-      <h2 className="text-yellow-500 text-4xl font-bold mb-6 animate-pulse">Snake and Ladder Game</h2>
+     <div className='flex items-center'>
+    <span className='mb-2'>
+    <BiteSnakeSVG />
+    </span>
+     <h2 className="text-yellow-500 text-4xl font-bold mb-6 animate-pulse">Snake and Ladder Game</h2>
+     </div>
       <h2 className="text-white text-2xl font-bold mb-6">Select Number of Players</h2>
       
       <div className="flex space-x-4 mb-8">
