@@ -168,5 +168,5 @@ const SnakeLadder = () => {
     </div>
   );
 };
-
+ 
 export default SnakeLadder;
